@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+/*eliminated the .header class and defined it just as nav  */ 
+nav {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    text-justify: fixed ;
+}
+
+ h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+nav div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+/* took out the .header and div to make it look cleaner. These are the only unordered/list */
+ ul {
+    list-style-type: none;
+}
+
+ li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+header {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*Making into a "sidebar" class for all three. eliminated redundant code*/
+.sidebar {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+.sidebar h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.sidebar img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/*consolidating redundant code with matching classes in HTML*/
+.main-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+.main-content img {
+    max-height: 200px;
+}
+
+/* Got rid of search-engine-optimization, online-reputation-management, social-media-marketing and made it all just <h2> (redundant) having 3 id's doing the same thing */
+ h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
